@@ -108,7 +108,7 @@ python app/scripts/create_db.py --reset
 
 - **Production mode (Gunicorn)**
   ```bash
-  gunicorn -w 4 -b 0.0.0.0:8000 wsgi:app:app
+  gunicorn -w 4 -b 0.0.0.0:8000 wsgi:app
   ```
 
 ---
